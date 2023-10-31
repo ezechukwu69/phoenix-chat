@@ -1,0 +1,8 @@
+<div class="lg:grid lg:grid-cols-3 gap-3">
+  <div class="col-span-1">
+    <%= live_render @conn, ElixirChatWeb.ChatRoomLive, layout: nil, current_user: @current_user %>
+  </div>
+  <div class="col-span-2" data-phx-main="true">
+    <%= live_render @conn, ElixirChatWeb.ChatLive, layout: nil, current_user: @current_user %>
+  </div>
+</div>
