@@ -18,3 +18,6 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Source: https://github.com/phoenixframework/phoenix
 # phoenix-chat
 # phoenix-chat
+
+
+This is my initial live view trial with the phoenix framework
